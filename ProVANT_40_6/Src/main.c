@@ -21,14 +21,14 @@
 
 
 /* Includes ------------------------------------------------------------------*/
+#include <HIL&Jetson protocol/c_common_frame.h>
+#include <HIL&Jetson protocol/uart.h>
 #include "main.h"
 #include "cmsis_os.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "pv_typedefs.h"
-#include "c_common_frame.h"
-#include "uart.h"
 #include "LQR4.h"
 #include <stdio.h>
 #include <stdlib.h>

@@ -1,4 +1,6 @@
-Src/main.o: ../Src/main.c /home/arthur/workspace4/ProVANT_40_6/Inc/main.h \
+Src/main.o: ../Src/main.c \
+ /home/arthur/workspace4/ProVANT_40_6/provant_lib/HIL&Jetson\ protocol/c_common_frame.h \
+ /home/arthur/workspace4/ProVANT_40_6/provant_lib/HIL&Jetson\ protocol/uart.h \
  /home/arthur/workspace4/ProVANT_40_6/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h \
  /home/arthur/workspace4/ProVANT_40_6/Inc/stm32f7xx_hal_conf.h \
  /home/arthur/workspace4/ProVANT_40_6/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_rcc.h \
@@ -33,6 +35,7 @@ Src/main.o: ../Src/main.c /home/arthur/workspace4/ProVANT_40_6/Inc/main.h \
  /home/arthur/workspace4/ProVANT_40_6/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd.h \
  /home/arthur/workspace4/ProVANT_40_6/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_ll_usb.h \
  /home/arthur/workspace4/ProVANT_40_6/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h \
+ /home/arthur/workspace4/ProVANT_40_6/Inc/main.h \
  /home/arthur/workspace4/ProVANT_40_6/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h \
  /home/arthur/workspace4/ProVANT_40_6/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  /home/arthur/workspace4/ProVANT_40_6/Inc/FreeRTOSConfig.h \
@@ -51,13 +54,13 @@ Src/main.o: ../Src/main.c /home/arthur/workspace4/ProVANT_40_6/Inc/main.h \
  /home/arthur/workspace4/ProVANT_40_6/Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h \
  /home/arthur/workspace4/ProVANT_40_6/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h \
  /home/arthur/workspace4/ProVANT_40_6/provant_lib/pv_typedefs.h \
- /home/arthur/workspace4/ProVANT_40_6/provant_lib/Protocol/c_common_frame.h \
- /home/arthur/workspace4/ProVANT_40_6/provant_lib/Protocol/uart.h \
  /home/arthur/workspace4/ProVANT_40_6/provant_lib/Controllers/LQR4.h \
  /home/arthur/workspace4/ProVANT_40_6/Drivers/CMSIS/Include/arm_math.h \
  /home/arthur/workspace4/ProVANT_40_6/Drivers/CMSIS/Include/core_cm7.h
 
-/home/arthur/workspace4/ProVANT_40_6/Inc/main.h:
+/home/arthur/workspace4/ProVANT_40_6/provant_lib/HIL&Jetson\ protocol/c_common_frame.h:
+
+/home/arthur/workspace4/ProVANT_40_6/provant_lib/HIL&Jetson\ protocol/uart.h:
 
 /home/arthur/workspace4/ProVANT_40_6/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:
 
@@ -127,6 +130,8 @@ Src/main.o: ../Src/main.c /home/arthur/workspace4/ProVANT_40_6/Inc/main.h \
 
 /home/arthur/workspace4/ProVANT_40_6/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_pcd_ex.h:
 
+/home/arthur/workspace4/ProVANT_40_6/Inc/main.h:
+
 /home/arthur/workspace4/ProVANT_40_6/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h:
 
 /home/arthur/workspace4/ProVANT_40_6/Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
@@ -162,10 +167,6 @@ Src/main.o: ../Src/main.c /home/arthur/workspace4/ProVANT_40_6/Inc/main.h \
 /home/arthur/workspace4/ProVANT_40_6/Middlewares/Third_Party/FreeRTOS/Source/include/timers.h:
 
 /home/arthur/workspace4/ProVANT_40_6/provant_lib/pv_typedefs.h:
-
-/home/arthur/workspace4/ProVANT_40_6/provant_lib/Protocol/c_common_frame.h:
-
-/home/arthur/workspace4/ProVANT_40_6/provant_lib/Protocol/uart.h:
 
 /home/arthur/workspace4/ProVANT_40_6/provant_lib/Controllers/LQR4.h:
 

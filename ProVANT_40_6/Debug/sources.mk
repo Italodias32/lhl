@@ -32,6 +32,6 @@ Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 \
 Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang \
 Src \
 provant_lib/Controllers \
-provant_lib/Protocol \
+provant_lib/HIL&Jetson\ protocol \
 startup \
 

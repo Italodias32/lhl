@@ -9,7 +9,7 @@ RM := rm -rf
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include startup/subdir.mk
--include provant_lib/Protocol/subdir.mk
+-include provant_lib/HIL&Jetson\ protocol/subdir.mk
 -include provant_lib/Controllers/subdir.mk
 -include Src/subdir.mk
 -include Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/subdir.mk
